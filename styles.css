@@ -1,0 +1,26 @@
+th{
+    border: solid 1px;
+}
+.circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; /* ทำให้เป็นกรอบวงกลม */
+    overflow: hidden; /* ป้องกันรูปภาพเกินขอบของวงกลม */
+}
+.circle img {
+    width: 100%; /* ทำให้รูปภาพเต็มกรอบ */
+    height: auto;
+}
+.circle {
+    float: left; /* จัดรูปภาพไปทางซ้าย */
+    margin-right: 20px; /* ระยะห่างระหว่างรูปและตัวหนังสือ */
+}
+p{
+    color: #5C5470;
+}
+/*.Profile{ (. แทน class)
+    border-radius: 50%;
+}*/
+body{
+    background-color: #FAF0E6;
+}
